@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --cor1: #ffffff;
+    --cor2: #F3E6D8;
+    --cor3: #FFF5FA;
+    --cor4: #7B284F;
+    --cor5: #854632;
+    --cor6: #302D2C;
+    --cor7: #5F574E;
+}
+
+body {
+    background-color: var(--cor2) ;
+    height: 100dvh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    
+    font-family: 'Outfit', sans-serif;
+    font-weight:400;
+    font-size: 16px;
+    color: var(--cor7);
+}
+
+h1, h2 {
+    font-family: 'Young Serif', serif;
+}
+main {
+    background-color: var(--cor1);
+    border-radius: 20px;
+}
+
+main > h1 {
+    color: var(--cor6);
+}
+
+
+.primeira {
+    background-color: var(--cor3);
+}
+.primeira h2 {
+    color: var(--cor4);
+}
+.primeira > ul{
+    list-style-position: inside;
+    list-style-type:var(--cor4);
+}
+
+.primeira > strong {
+    color: var(--cor5);
+}
+
+
+img {
+max-width: 100%;
+margin: 40px;
+border-radius: 10px;
+}
